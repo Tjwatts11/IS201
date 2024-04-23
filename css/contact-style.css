@@ -1,0 +1,77 @@
+/* This is contact-style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 00;
+    padding: 0;
+    background: tan;
+    color: #333;
+}
+section {
+     background: tan;
+     color: #83553e
+}
+.contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    height: 100vh; 
+}
+
+.contact-details {
+    flex-basis: 50%;
+    
+}
+
+.contact-image {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-video {
+    display: block;       
+    margin-left: auto;    
+    margin-right: auto;   
+    text-align: center;   
+  }
+
+.contact-image img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+#contact-info {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact-info h1 {
+    text-align: center;
+    color: #333;
+}
+
+#contact-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#contact-info a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+#contact-info a:hover {
+    text-decoration: underline;
+}
